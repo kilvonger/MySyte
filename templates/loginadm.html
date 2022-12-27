@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+{{ super() }}
+<h1> Пользователь: admin </h1>
+<a href="/login/<username>/exit" class="btn btn-lg btn-block btn-outline-primary">Выход</a>
+<a href="/create" class="btn btn-lg btn-block btn-outline-primary">Добавить товар</a>
+{% endblock %}

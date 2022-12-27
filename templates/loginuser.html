@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block body %}
+{{ super() }}
+<h1> Пользователь: {{username}} </h1>
+<a href="/login/<username>/exit" class="btn btn-lg btn-block btn-outline-primary">Выход</a>
+{% endblock %}

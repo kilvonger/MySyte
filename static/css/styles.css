@@ -1,0 +1,66 @@
+.c1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.c2 {
+	margin: 40px;
+    line-height: 20px;
+	text-align: center;
+}
+
+.c3 {
+	margin: 100px;
+	text-align: center;
+}
+
+.info {
+	margin: 20px;
+}
+
+.text_about {
+	display: flex;
+}
+
+.text_about  img{
+	width: 800px;
+	height: 500px;
+	padding: 10px;
+}
+
+.text_about p {
+	margin: 10px;
+	font-size: 20px;
+}
+
+.text_help p {
+	margin: 20px;
+}
+
+.price {
+	margin: 40px;
+	font-size: 50px;
+}
+
+.product_title {
+	margin: 40px;
+}
+
+.lefj {
+	font-size: 100px;
+	text-align: center;
+}
+.lefp {
+	padding: 10px;
+	text-align: center;
+}
+
+.form-contact label {
+	display: inline-block;
+	min-width: 80px;
+}
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+	font-size: 16px;
+}
+
